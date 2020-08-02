@@ -58,32 +58,39 @@
     font-size: 56px;
     text-decoration: underline;
 
-}
 
+}
+.for-animate{
+    position: relative;
+    bottom: 150px;
+}
 .about-norway-block{
     width: 100%;
 }
 .header-about-norway-tourism{
-    margin-top:95px;
     margin-left: 25px;
     text-align: left;
-    width: 40%;
+    width: 35%;
     float: left;
     font-weight: normal;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color: white;
+    position: relative;
+    right: 200px;
 }
+
 .about-attractions{
-    margin-top:95px;
     margin-right: 25px;
     text-align: left;
-    width: 40%;
+    width: 30%;
     float: right;
     font-weight: normal;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color: white;
+    position: relative;
+    left: 150px;
 }
 
 
@@ -143,4 +150,46 @@
 .most-popular p {
     line-height: 24px;
     font-size: 20px;
+}
+
+.header-third{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 55px;
+    color: #ffffff;
+}
+
+.conteiner{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+.conteiner div{
+
+    height: 150px;
+    width: 150px;
+
+}
+.conteiner div i{
+    font-size: 80px;
+    color: white;
+}
+.button button{
+    margin-top: 40px;
+    margin-left: 40%;
+    width: 20%;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+button:hover{
+    cursor: pointer;
 }

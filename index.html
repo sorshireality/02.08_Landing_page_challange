@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5a718ab19.js" crossorigin="anonymous"></script>
 
     <title>HikingHeroTour</title>
 </head>
@@ -13,9 +14,12 @@
 
         <div class="first-block">
             <div class="header-site">
+                <div class="for-animate">
 
                 <p class="header-text">HikingHero</p>
                 <p class="company-tagline">Norway tourism company</p>
+                </div>
+
                 <div class="about-norway-block">
                 <div>
                     <p class="header-about-norway-tourism">
@@ -81,19 +85,73 @@
         </div>
         <div class="third-block">
 
+
+            <div>
+
+                <p class="header-third">We offers:</p>
+
+            </div>
+            <div class="conteiner">
+                <div class="food">
+                    <i title="Food" class="fas fa-utensils"></i>
+
+                </div>
+                <div class="bus">
+                    <i title="Bus tour in Norway" class="fas fa-bus"></i>
+                </div>
+                <div class="fly">
+                    <i title="Plane to Norway" class="fas fa-plane-departure"></i>
+                </div>
+                <div class="bice">
+
+                    <i title="Free bicycle in tour" class="fas fa-bicycle"></i>
+                </div>
+                <div class="hotel">
+
+
+                    <i title="3 days in hotel" class="fas fa-hotel"></i>
+                </div>
+                <div class="wifi">
+
+
+                    <i title="Free WiFi" class="fas fa-wifi"></i>                </div>
+                <div class="hiking">
+
+                    <i title="Hiking" class="fas fa-hiking"></i>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="button">
+                <button>Contact US</button>
+            </div>
         </div>
+
 
         <div class="four-block">
 
         </div>
     </div>
 
-
-
-
     <script src="script/jquery-3.4.1.min.js"></script>
     <script>
 
+        $(window).on('load',function () {
+
+            $('.header-about-norway-tourism').animate({
+                marginLeft: '240px'
+            }, 1000);
+            $('.about-attractions').animate({
+                marginRight: '170px'
+            }, 1000);
+            $('.for-animate').animate({
+                marginTop: '170px'
+            }, 1500);
+
+        })
 
     </script>
 </body>
