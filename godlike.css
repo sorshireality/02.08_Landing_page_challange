@@ -92,7 +92,7 @@ html{
 .mezdu{
     position: relative;
     height: 400px;
-    background-color: red;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -154,7 +154,7 @@ html{
     position: relative;
     text-align: center;
     padding: 10px;
-
+    width: 98.5%;
 }
 #footer span{
     margin-top: 40px;
@@ -162,5 +162,5 @@ html{
     left: 30%;
     font-size: 30q;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
 }
